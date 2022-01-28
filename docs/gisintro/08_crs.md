@@ -1,25 +1,24 @@
 ---
-title: 08. Координатни системи
+title: 08. Проекции и координатни системи
 tags: координатна система (КТ), картни проекции, дължина, ширина, географски координатни системи, проекционни координатни системи
 ---
 
-# Координатни системи
+# Проекции и координатни системи
 
 ## Преглед
+
+Точното изобразяване на повърхността на сфера върху плосък лист хартия е невъзможна геометрична задача, която винаги води до някакъв вид деформация на обектите. **Картните проекции** 
 
 **Map projections** try to portray the surface of the earth, or a
 portion of the earth, on a flat piece of paper or computer screen. In
 layman\'s term, map projections try to transform the earth from its
 spherical shape (3D) to a planar shape (2D).
 
-A **coordinate reference system** (CRS) then defines how the
-two-dimensional, projected map in your GIS relates to real places on the
-earth. The decision of which map projection and CRS to use depends on
-the regional extent of the area you want to work in, on the analysis you
-want to do, and often on the availability of data.
+**Координатната система (КС)** или още координатна референтна система дефинира математическите правила как двуизмерните обекти от проектираната карта се отнасят към реалните обекти на повърхността на Земята.
 
-Map Projection in detail
-========================
+Решението коя картна проекция и коя КС да използваме зависи от пространствения обхват, методите за анализ и посланието, което се опитваме да предадем с картата на дадена територия.
+
+## Картната проекция в детайли
 
 A traditional method of representing the earth\'s shape is the use of
 globes. There is, however, a problem with this approach. Although globes
